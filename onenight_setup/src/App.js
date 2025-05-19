@@ -1,17 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Header.js';
+import Content from './Content.js';
+import Footer from './Footer.js';
 
 function App() {
-  const handleNameChange = () => {
-    const names = ['Mia', 'Angie', 'Charlie'];
-    const int = Math.floor(Math.random() * 3);
-    return names[int];
-  }
+  
 
   return (
     <div className="App">
       <Header />
+      <Content />
+      <Footer />
       
     </div>
   );
