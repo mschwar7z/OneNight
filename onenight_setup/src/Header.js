@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header style={headerStyle}>
-        <h1>Mia's List</h1>
+        <h1>One Night at Fordham</h1>
     </header>
   )
 }
